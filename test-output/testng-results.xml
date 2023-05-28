@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="11" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Configuration File Loaded Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test Data loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Username Entered: Admin]]>
+    </line>
+    <line>
+      <![CDATA[Pssword Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Admin tab clicked]]>
+    </line>
+    <line>
+      <![CDATA[Add Button clicked]]>
+    </line>
+    <line>
+      <![CDATA[User Role selected: ESS]]>
+    </line>
+    <line>
+      <![CDATA[Employee Name entered: Dominic  Chase]]>
+    </line>
+    <line>
+      <![CDATA[Status selected: Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Username entered: Sonal]]>
+    </line>
+    <line>
+      <![CDATA[Password entered]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Password entered]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked]]>
+    </line>
+    <line>
+      <![CDATA[System Users heading displayed sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Username entered: Sonal]]>
+    </line>
+    <line>
+      <![CDATA[User Role selected: ESS]]>
+    </line>
+    <line>
+      <![CDATA[Employee Name entered: Dominic  Chase]]>
+    </line>
+    <line>
+      <![CDATA[Status selected: Enabled]]>
+    </line>
+    <line>
+      <![CDATA[Search button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Record found successfully]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:Sonal
+ESS
+Dominic Chase
+Enabled]]>
+    </line>
+    <line>
+      <![CDATA[***********************]]>
+    </line>
+    <line>
+      <![CDATA[Profile drop down link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Logout link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Test Data loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Username Entered: Admin]]>
+    </line>
+    <line>
+      <![CDATA[Pssword Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked ]]>
+    </line>
+    <line>
+      <![CDATA[PIM tab clicked]]>
+    </line>
+    <line>
+      <![CDATA[Number of employee:50]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0038
+Aaliyah
+Haq
+QA Lead (Deleted)
+Full-Time Permanent
+Quality Assurance
+Odis Adalwin]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0221
+Alice
+Duval
+Account Assistant (Deleted)
+Full-Time Contract
+Finance
+Kevin Mathews]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0070
+Anthony
+Nolan
+Sales Representative (Deleted)
+Full-Time Probation
+Sales
+Linda Anderson]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:135790
+arjun
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0024
+Arjun
+Collings
+HR Manager (Deleted)
+Full-Time Permanent
+Human Resources
+John Smith]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:02920489
+Bhavani Nikhlesh
+P]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:02890489
+Bhavani Nikhlesh
+P]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:02910489
+Bhavani Nikhlesh
+P]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:02840489
+Bhavani Nikhlesh
+P]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:02810489
+Bhavani Nikhlesh
+P]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:02940489
+Bhavani Nikhlesh
+P]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0046
+Cassidy
+Mittal
+IT Manager (Deleted)
+Part-Time Contract
+TechOps
+Odis Adalwin]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0204
+Cecil
+Bonaparte
+Software Engineer (Deleted)
+Full-Time Permanent
+Development
+Fiona Grace]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0212
+Charlie
+Carter
+QA Engineer (Deleted)
+Full-Time Probation
+Quality Assurance
+Aaliyah Haq]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0217
+Chenzira
+Chuki
+QA Engineer (Deleted)
+Full-Time Permanent
+Quality Assurance
+Aaliyah Haq]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:Chiru
+MS
+Software Engineer (Deleted)]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:Chiru
+MS
+Software Engineer (Deleted)]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0066
+David
+Morris
+Account Assistant (Deleted)
+Full-Time Permanent
+Finance
+Kevin Mathews]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0020
+Dominic
+Chase
+VP - Client Services (Deleted)
+Full-Time Permanent
+Administration
+John Smith]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0258
+Ebusha Kidist
+Ejigu]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0227
+Ehioze
+Ebo
+Account Assistant (Deleted)
+Full-Time Probation
+Finance
+Kevin Mathews]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0029
+Fiona
+Grace
+Software Architect (Deleted)
+Full-Time Permanent
+Development
+Odis Adalwin]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:001
+FirstName1 A
+LastName1]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:002
+FirstName2 B
+LastName2]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:003
+FirstName3 C
+LastName3]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:004
+FirstName4 D
+LastName4]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:005
+FirstName5 E
+LastName5]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0099
+Garry
+White
+HR Associate (Deleted)
+Full-Time Permanent
+Human Resources
+Arjun Collings]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0235
+Goutam
+Ganesh
+Sales Representative (Deleted)
+Full-Time Permanent
+Sales
+Linda Anderson]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:5432107867
+hemanth
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0095
+Jacqueline
+White
+Support Specialist (Deleted)
+Full-Time Contract
+Technical Support
+Dominic Chase]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0243
+Jadine
+Jackie
+HR Associate (Deleted)
+Full-Time Probation
+Human Resources
+Arjun Collings]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0062
+Jasmine
+Morgan
+Financial Analyst (Deleted)
+Full-Time Probation
+Finance
+Kevin Mathews]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0083
+Joe
+Root
+Content Specialist (Deleted)
+Full-Time Probation
+Marketing
+Melan Peiris]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0011
+John
+Smith
+Chief Executive Officer (Deleted)
+Full-Time Permanent
+Administration]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0054
+Jordan
+Mathews
+Database Administrator (Deleted)
+Full-Time Contract
+TechOps
+Cassidy Mittal]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0058
+Kevin
+Mathews
+Finance Manager (Deleted)
+Full-Time Permanent
+Finance
+Peter Anderson]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0239
+Kiyara
+Hu
+HR Associate (Deleted)
+Full-Time Permanent
+Human Resources
+Arjun Collings]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0016
+Linda Jane
+Anderson
+VP - Sales & Marketing (Deleted)
+Full-Time Permanent
+Administration
+John Smith]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0208
+Lisa
+Andrews
+Software Engineer (Deleted)
+Full-Time Probation
+Development
+Fiona Grace]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0091
+Luke
+Wright
+Head of Support (Deleted)
+Full-Time Permanent
+Technical Support
+Dominic Chase]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:512675426
+madhu sudhan rao
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0050
+Maggie
+Manning
+Network Administrator (Deleted)
+Full-Time Probation
+TechOps
+Cassidy Mittal]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:Mahesh
+V
+QA Lead (Deleted)]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:Mahesh
+V
+QA Lead (Deleted)]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0275
+mahesh
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0278
+mahesh
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0287
+mahesh@123
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0283
+mahesh@123
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Employee details:0273
+mahesh@123
+m]]>
+    </line>
+    <line>
+      <![CDATA[*********************************]]>
+    </line>
+    <line>
+      <![CDATA[Page scrolled to employee details whose id is: 0046]]>
+    </line>
+    <line>
+      <![CDATA[Checkbox of employee whose id is 0046 selected]]>
+    </line>
+    <line>
+      <![CDATA[Edit button clicked for employee whose id is 0046 is clicked]]>
+    </line>
+    <line>
+      <![CDATA[First name entered: Sumit]]>
+    </line>
+    <line>
+      <![CDATA[Middle name entered: Kumar]]>
+    </line>
+    <line>
+      <![CDATA[Last name entered: Mittal]]>
+    </line>
+    <line>
+      <![CDATA[Nick name entered: Sumit]]>
+    </line>
+    <line>
+      <![CDATA[Employee ID entered: 0046]]>
+    </line>
+    <line>
+      <![CDATA[Other ID entered: DFTH25]]>
+    </line>
+    <line>
+      <![CDATA[Driver License Number entered: 987456321]]>
+    </line>
+    <line>
+      <![CDATA[SSN Number entered: 123333665]]>
+    </line>
+    <line>
+      <![CDATA[SIN Number entered: 147852369]]>
+    </line>
+    <line>
+      <![CDATA[Smoker check box selected]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Nationality]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Nationality drop down]]>
+    </line>
+    <line>
+      <![CDATA[Nationality selected: Indian]]>
+    </line>
+    <line>
+      <![CDATA[Scrolled to Marital Status]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Marital Status drop down]]>
+    </line>
+    <line>
+      <![CDATA[Marital status selected: Single]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Profile drop down link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Logout link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Test Data loaded successfully]]>
+    </line>
+    <line>
+      <![CDATA[Username Entered: Admin]]>
+    </line>
+    <line>
+      <![CDATA[Pssword Entered]]>
+    </line>
+    <line>
+      <![CDATA[Login button clicked ]]>
+    </line>
+    <line>
+      <![CDATA[Time link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Timesheet tab clicked]]>
+    </line>
+    <line>
+      <![CDATA[Time sheet option selected]]>
+    </line>
+    <line>
+      <![CDATA[Edit button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Entered project name: FreeWave Technologies]]>
+    </line>
+    <line>
+      <![CDATA[Project name selected from given options]]>
+    </line>
+    <line>
+      <![CDATA[Activity drop down clicked]]>
+    </line>
+    <line>
+      <![CDATA[Activity selected]]>
+    </line>
+    <line>
+      <![CDATA[Timesheet table displayed]]>
+    </line>
+    <line>
+      <![CDATA[Total number of project: 1]]>
+    </line>
+    <line>
+      <![CDATA[Time entered in timesheet]]>
+    </line>
+    <line>
+      <![CDATA[Save button clicked]]>
+    </line>
+    <line>
+      <![CDATA[Profile drop down link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Logout link clicked]]>
+    </line>
+    <line>
+      <![CDATA[Application Closed Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-05-25T20:11:06 IST" name="Sanity Suite" finished-at="2023-05-25T20:12:06 IST" duration-ms="60040">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T20:11:06 IST" name="OrangeHRM Test Cases" finished-at="2023-05-25T20:12:06 IST" duration-ms="60040">
+      <class name="com.orangehrm.testcases.AddUser">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.testcases.AddUser@10b892d5]" started-at="2023-05-25T20:10:39 IST" name="setUp" finished-at="2023-05-25T20:11:06 IST" duration-ms="26827" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Configuration File Loaded Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="readReadData()[pri:0, instance:com.orangehrm.testcases.AddUser@10b892d5]" started-at="2023-05-25T20:11:06 IST" name="readReadData" finished-at="2023-05-25T20:11:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Data loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readReadData -->
+        <test-method signature="loginApplication()[pri:1, instance:com.orangehrm.testcases.AddUser@10b892d5]" started-at="2023-05-25T20:11:06 IST" name="loginApplication" finished-at="2023-05-25T20:11:10 IST" duration-ms="3588" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username Entered: Admin]]>
+            </line>
+            <line>
+              <![CDATA[Pssword Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="addEmployee()[pri:2, instance:com.orangehrm.testcases.AddUser@10b892d5]" started-at="2023-05-25T20:11:10 IST" name="addEmployee" finished-at="2023-05-25T20:11:33 IST" duration-ms="23087" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Admin tab clicked]]>
+            </line>
+            <line>
+              <![CDATA[Add Button clicked]]>
+            </line>
+            <line>
+              <![CDATA[User Role selected: ESS]]>
+            </line>
+            <line>
+              <![CDATA[Employee Name entered: Dominic  Chase]]>
+            </line>
+            <line>
+              <![CDATA[Status selected: Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Username entered: Sonal]]>
+            </line>
+            <line>
+              <![CDATA[Password entered]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Password entered]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method signature="searchEmployee()[pri:3, instance:com.orangehrm.testcases.AddUser@10b892d5]" started-at="2023-05-25T20:11:33 IST" name="searchEmployee" finished-at="2023-05-25T20:11:35 IST" duration-ms="2580" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[System Users heading displayed sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Username entered: Sonal]]>
+            </line>
+            <line>
+              <![CDATA[User Role selected: ESS]]>
+            </line>
+            <line>
+              <![CDATA[Employee Name entered: Dominic  Chase]]>
+            </line>
+            <line>
+              <![CDATA[Status selected: Enabled]]>
+            </line>
+            <line>
+              <![CDATA[Search button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Record found successfully]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:Sonal
+ESS
+Dominic Chase
+Enabled]]>
+            </line>
+            <line>
+              <![CDATA[***********************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchEmployee -->
+        <test-method signature="logoutApplication()[pri:4, instance:com.orangehrm.testcases.AddUser@10b892d5]" started-at="2023-05-25T20:11:35 IST" name="logoutApplication" finished-at="2023-05-25T20:11:36 IST" duration-ms="1012" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Profile drop down link clicked]]>
+            </line>
+            <line>
+              <![CDATA[Logout link clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.testcases.AddUser@10b892d5]" started-at="2023-05-25T20:12:06 IST" name="tearDown" finished-at="2023-05-25T20:12:07 IST" duration-ms="963" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrm.testcases.AddUser -->
+      <class name="com.orangehrm.testcases.ViewAndEditEmployeeDetails">
+        <test-method is-config="true" signature="readReadData()[pri:0, instance:com.orangehrm.testcases.ViewAndEditEmployeeDetails@7689ddef]" started-at="2023-05-25T20:11:36 IST" name="readReadData" finished-at="2023-05-25T20:11:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Data loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readReadData -->
+        <test-method signature="loginApplication()[pri:1, instance:com.orangehrm.testcases.ViewAndEditEmployeeDetails@7689ddef]" started-at="2023-05-25T20:11:36 IST" name="loginApplication" finished-at="2023-05-25T20:11:38 IST" duration-ms="1936" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username Entered: Admin]]>
+            </line>
+            <line>
+              <![CDATA[Pssword Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="viewEmployeeList()[pri:2, instance:com.orangehrm.testcases.ViewAndEditEmployeeDetails@7689ddef]" started-at="2023-05-25T20:11:38 IST" name="viewEmployeeList" finished-at="2023-05-25T20:11:44 IST" duration-ms="5971" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PIM tab clicked]]>
+            </line>
+            <line>
+              <![CDATA[Number of employee:50]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0038
+Aaliyah
+Haq
+QA Lead (Deleted)
+Full-Time Permanent
+Quality Assurance
+Odis Adalwin]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0221
+Alice
+Duval
+Account Assistant (Deleted)
+Full-Time Contract
+Finance
+Kevin Mathews]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0070
+Anthony
+Nolan
+Sales Representative (Deleted)
+Full-Time Probation
+Sales
+Linda Anderson]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:135790
+arjun
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0024
+Arjun
+Collings
+HR Manager (Deleted)
+Full-Time Permanent
+Human Resources
+John Smith]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:02920489
+Bhavani Nikhlesh
+P]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:02890489
+Bhavani Nikhlesh
+P]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:02910489
+Bhavani Nikhlesh
+P]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:02840489
+Bhavani Nikhlesh
+P]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:02810489
+Bhavani Nikhlesh
+P]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:02940489
+Bhavani Nikhlesh
+P]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0046
+Cassidy
+Mittal
+IT Manager (Deleted)
+Part-Time Contract
+TechOps
+Odis Adalwin]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0204
+Cecil
+Bonaparte
+Software Engineer (Deleted)
+Full-Time Permanent
+Development
+Fiona Grace]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0212
+Charlie
+Carter
+QA Engineer (Deleted)
+Full-Time Probation
+Quality Assurance
+Aaliyah Haq]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0217
+Chenzira
+Chuki
+QA Engineer (Deleted)
+Full-Time Permanent
+Quality Assurance
+Aaliyah Haq]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:Chiru
+MS
+Software Engineer (Deleted)]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:Chiru
+MS
+Software Engineer (Deleted)]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0066
+David
+Morris
+Account Assistant (Deleted)
+Full-Time Permanent
+Finance
+Kevin Mathews]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0020
+Dominic
+Chase
+VP - Client Services (Deleted)
+Full-Time Permanent
+Administration
+John Smith]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0258
+Ebusha Kidist
+Ejigu]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0227
+Ehioze
+Ebo
+Account Assistant (Deleted)
+Full-Time Probation
+Finance
+Kevin Mathews]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0029
+Fiona
+Grace
+Software Architect (Deleted)
+Full-Time Permanent
+Development
+Odis Adalwin]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:001
+FirstName1 A
+LastName1]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:002
+FirstName2 B
+LastName2]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:003
+FirstName3 C
+LastName3]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:004
+FirstName4 D
+LastName4]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:005
+FirstName5 E
+LastName5]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0099
+Garry
+White
+HR Associate (Deleted)
+Full-Time Permanent
+Human Resources
+Arjun Collings]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0235
+Goutam
+Ganesh
+Sales Representative (Deleted)
+Full-Time Permanent
+Sales
+Linda Anderson]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:5432107867
+hemanth
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0095
+Jacqueline
+White
+Support Specialist (Deleted)
+Full-Time Contract
+Technical Support
+Dominic Chase]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0243
+Jadine
+Jackie
+HR Associate (Deleted)
+Full-Time Probation
+Human Resources
+Arjun Collings]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0062
+Jasmine
+Morgan
+Financial Analyst (Deleted)
+Full-Time Probation
+Finance
+Kevin Mathews]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0083
+Joe
+Root
+Content Specialist (Deleted)
+Full-Time Probation
+Marketing
+Melan Peiris]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0011
+John
+Smith
+Chief Executive Officer (Deleted)
+Full-Time Permanent
+Administration]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0054
+Jordan
+Mathews
+Database Administrator (Deleted)
+Full-Time Contract
+TechOps
+Cassidy Mittal]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0058
+Kevin
+Mathews
+Finance Manager (Deleted)
+Full-Time Permanent
+Finance
+Peter Anderson]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0239
+Kiyara
+Hu
+HR Associate (Deleted)
+Full-Time Permanent
+Human Resources
+Arjun Collings]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0016
+Linda Jane
+Anderson
+VP - Sales & Marketing (Deleted)
+Full-Time Permanent
+Administration
+John Smith]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0208
+Lisa
+Andrews
+Software Engineer (Deleted)
+Full-Time Probation
+Development
+Fiona Grace]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0091
+Luke
+Wright
+Head of Support (Deleted)
+Full-Time Permanent
+Technical Support
+Dominic Chase]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:512675426
+madhu sudhan rao
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0050
+Maggie
+Manning
+Network Administrator (Deleted)
+Full-Time Probation
+TechOps
+Cassidy Mittal]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:Mahesh
+V
+QA Lead (Deleted)]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:Mahesh
+V
+QA Lead (Deleted)]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0275
+mahesh
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0278
+mahesh
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0287
+mahesh@123
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0283
+mahesh@123
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+            <line>
+              <![CDATA[Employee details:0273
+mahesh@123
+m]]>
+            </line>
+            <line>
+              <![CDATA[*********************************]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewEmployeeList -->
+        <test-method signature="editEmployeeDetails()[pri:3, instance:com.orangehrm.testcases.ViewAndEditEmployeeDetails@7689ddef]" started-at="2023-05-25T20:11:44 IST" name="editEmployeeDetails" finished-at="2023-05-25T20:11:48 IST" duration-ms="4268" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Page scrolled to employee details whose id is: 0046]]>
+            </line>
+            <line>
+              <![CDATA[Checkbox of employee whose id is 0046 selected]]>
+            </line>
+            <line>
+              <![CDATA[Edit button clicked for employee whose id is 0046 is clicked]]>
+            </line>
+            <line>
+              <![CDATA[First name entered: Sumit]]>
+            </line>
+            <line>
+              <![CDATA[Middle name entered: Kumar]]>
+            </line>
+            <line>
+              <![CDATA[Last name entered: Mittal]]>
+            </line>
+            <line>
+              <![CDATA[Nick name entered: Sumit]]>
+            </line>
+            <line>
+              <![CDATA[Employee ID entered: 0046]]>
+            </line>
+            <line>
+              <![CDATA[Other ID entered: DFTH25]]>
+            </line>
+            <line>
+              <![CDATA[Driver License Number entered: 987456321]]>
+            </line>
+            <line>
+              <![CDATA[SSN Number entered: 123333665]]>
+            </line>
+            <line>
+              <![CDATA[SIN Number entered: 147852369]]>
+            </line>
+            <line>
+              <![CDATA[Smoker check box selected]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Nationality]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Nationality drop down]]>
+            </line>
+            <line>
+              <![CDATA[Nationality selected: Indian]]>
+            </line>
+            <line>
+              <![CDATA[Scrolled to Marital Status]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Marital Status drop down]]>
+            </line>
+            <line>
+              <![CDATA[Marital status selected: Single]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editEmployeeDetails -->
+        <test-method signature="logoutApplication()[pri:4, instance:com.orangehrm.testcases.ViewAndEditEmployeeDetails@7689ddef]" started-at="2023-05-25T20:11:48 IST" name="logoutApplication" finished-at="2023-05-25T20:11:49 IST" duration-ms="881" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Profile drop down link clicked]]>
+            </line>
+            <line>
+              <![CDATA[Logout link clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+      </class> <!-- com.orangehrm.testcases.ViewAndEditEmployeeDetails -->
+      <class name="com.orangehrm.testcases.EditTimeSheet">
+        <test-method is-config="true" signature="readReadData()[pri:0, instance:com.orangehrm.testcases.EditTimeSheet@687a762c]" started-at="2023-05-25T20:11:49 IST" name="readReadData" finished-at="2023-05-25T20:11:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Data loaded successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- readReadData -->
+        <test-method signature="loginApplication()[pri:1, instance:com.orangehrm.testcases.EditTimeSheet@687a762c]" started-at="2023-05-25T20:11:49 IST" name="loginApplication" finished-at="2023-05-25T20:11:52 IST" duration-ms="2907" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username Entered: Admin]]>
+            </line>
+            <line>
+              <![CDATA[Pssword Entered]]>
+            </line>
+            <line>
+              <![CDATA[Login button clicked ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="editTimeSheet()[pri:2, instance:com.orangehrm.testcases.EditTimeSheet@687a762c]" started-at="2023-05-25T20:11:52 IST" name="editTimeSheet" finished-at="2023-05-25T20:12:05 IST" duration-ms="12819" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Time link clicked]]>
+            </line>
+            <line>
+              <![CDATA[Timesheet tab clicked]]>
+            </line>
+            <line>
+              <![CDATA[Time sheet option selected]]>
+            </line>
+            <line>
+              <![CDATA[Edit button clicked]]>
+            </line>
+            <line>
+              <![CDATA[Entered project name: FreeWave Technologies]]>
+            </line>
+            <line>
+              <![CDATA[Project name selected from given options]]>
+            </line>
+            <line>
+              <![CDATA[Activity drop down clicked]]>
+            </line>
+            <line>
+              <![CDATA[Activity selected]]>
+            </line>
+            <line>
+              <![CDATA[Timesheet table displayed]]>
+            </line>
+            <line>
+              <![CDATA[Total number of project: 1]]>
+            </line>
+            <line>
+              <![CDATA[Time entered in timesheet]]>
+            </line>
+            <line>
+              <![CDATA[Save button clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editTimeSheet -->
+        <test-method signature="logoutApplication()[pri:3, instance:com.orangehrm.testcases.EditTimeSheet@687a762c]" started-at="2023-05-25T20:12:05 IST" name="logoutApplication" finished-at="2023-05-25T20:12:06 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Profile drop down link clicked]]>
+            </line>
+            <line>
+              <![CDATA[Logout link clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutApplication -->
+      </class> <!-- com.orangehrm.testcases.EditTimeSheet -->
+    </test> <!-- OrangeHRM Test Cases -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> 
+<suite parallel="false" name="NxtGen AI Automation Suite">
+
+	<listeners>
+		<listener class-name="com.nxtgenai.listeners.CustomListeners" />
+	</listeners>
+
+	<test name="Regression Suite">
+		<classes>
+		    <class name="com.nxtgenai.testcases.HandlingMouseEvent" /> 	
+		</classes>
+	</test> <!-- testng.xml -->	
+
+</suite> <!-- Suite -->

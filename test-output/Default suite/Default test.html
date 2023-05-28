@@ -1,0 +1,462 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 25 19:37:00 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>17 seconds (17229 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangehrm.testcases.ViewAndEditEmployeeDetails.editEmployeeDetails()'><b>editEmployeeDetails</b><br>Test class: com.orangehrm.testcases.ViewAndEditEmployeeDetails<br/>
+<a href="#Output-2144282958" onClick='toggleBox("Output-2144282958", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2144282958" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2144282958">
+Page scrolled to employee details whose id is: 0046<br/>
+Checkbox of employee whose id is 0046 selected<br/>
+Edit button clicked for employee whose id is 0046 is clicked<br/>
+First name entered: Sumit<br/>
+Middle name entered: Kumar<br/>
+Last name entered: Mittal<br/>
+Nick name entered: Sumit<br/>
+Employee ID entered: 0046<br/>
+Other ID entered: DFTH25<br/>
+Driver License Number entered: 987456321<br/>
+SSN Number entered: 123333665<br/>
+SIN Number entered: 147852369<br/>
+Smoker check box selected<br/>
+Scrolled to Nationality<br/>
+Clicked on Nationality drop down<br/>
+Nationality selected: Indian<br/>
+Scrolled to Marital Status<br/>
+Clicked on Marital Status drop down<br/>
+Marital status selected: Single<br/>
+Save button clicked<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.orangehrm.testcases.ViewAndEditEmployeeDetails@3e14c16d</td></tr>
+<tr>
+<td title='com.orangehrm.testcases.ViewAndEditEmployeeDetails.loginApplication()'><b>loginApplication</b><br>Test class: com.orangehrm.testcases.ViewAndEditEmployeeDetails<br/>
+<a href="#Output-878506901" onClick='toggleBox("Output-878506901", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-878506901" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-878506901">
+Username Entered: Admin<br/>
+Pssword Entered<br/>
+Login button clicked <br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.orangehrm.testcases.ViewAndEditEmployeeDetails@3e14c16d</td></tr>
+<tr>
+<td title='com.orangehrm.testcases.ViewAndEditEmployeeDetails.viewEmployeeList()'><b>viewEmployeeList</b><br>Test class: com.orangehrm.testcases.ViewAndEditEmployeeDetails<br/>
+<a href="#Output-2018270965" onClick='toggleBox("Output-2018270965", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2018270965" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2018270965">
+PIM tab clicked<br/>
+Number of employee:50<br/>
+Employee details:0038
+Aaliyah
+Haq
+QA Lead (Deleted)
+Full-Time Permanent
+Quality Assurance
+Odis Adalwin<br/>
+*********************************<br/>
+Employee details:0221
+Alice
+Duval
+Account Assistant (Deleted)
+Full-Time Contract
+Finance
+Kevin Mathews<br/>
+*********************************<br/>
+Employee details:0070
+Anthony
+Nolan
+Sales Representative (Deleted)
+Full-Time Probation
+Sales
+Linda Anderson<br/>
+*********************************<br/>
+Employee details:135790
+arjun
+m<br/>
+*********************************<br/>
+Employee details:02840489
+Bhavani Nikhlesh
+P<br/>
+*********************************<br/>
+Employee details:02810489
+Bhavani Nikhlesh
+P<br/>
+*********************************<br/>
+Employee details:0046
+Cassidy
+Hope
+IT Manager (Deleted)
+Part-Time Contract
+TechOps
+Odis Adalwin<br/>
+*********************************<br/>
+Employee details:0204
+Cecil
+Bonaparte
+Software Engineer (Deleted)
+Full-Time Permanent
+Development
+Fiona Grace<br/>
+*********************************<br/>
+Employee details:0212
+Charlie
+Carter
+QA Engineer (Deleted)
+Full-Time Probation
+Quality Assurance
+Aaliyah Haq<br/>
+*********************************<br/>
+Employee details:0217
+Chenzira
+Chuki
+QA Engineer (Deleted)
+Full-Time Permanent
+Quality Assurance
+Aaliyah Haq<br/>
+*********************************<br/>
+Employee details:0066
+David
+Morris
+Account Assistant (Deleted)
+Full-Time Permanent
+Finance
+Kevin Mathews<br/>
+*********************************<br/>
+Employee details:0020
+Dominic
+Chase
+VP - Client Services (Deleted)
+Full-Time Permanent
+Administration
+John Smith<br/>
+*********************************<br/>
+Employee details:0258
+Ebusha Kidist
+Ejigu<br/>
+*********************************<br/>
+Employee details:0227
+Ehioze
+Ebo
+Account Assistant (Deleted)
+Full-Time Probation
+Finance
+Kevin Mathews<br/>
+*********************************<br/>
+Employee details:0029
+Fiona
+Grace
+Software Architect (Deleted)
+Full-Time Permanent
+Development
+Odis Adalwin<br/>
+*********************************<br/>
+Employee details:001
+FirstName1 A
+LastName1<br/>
+*********************************<br/>
+Employee details:002
+FirstName2 B
+LastName2<br/>
+*********************************<br/>
+Employee details:003
+FirstName3 C
+LastName3<br/>
+*********************************<br/>
+Employee details:004
+FirstName4 D
+LastName4<br/>
+*********************************<br/>
+Employee details:005
+FirstName5 E
+LastName5<br/>
+*********************************<br/>
+Employee details:0099
+Garry
+White
+HR Associate (Deleted)
+Full-Time Permanent
+Human Resources
+Seema Collings<br/>
+*********************************<br/>
+Employee details:0235
+Goutam
+Ganesh
+Sales Representative (Deleted)
+Full-Time Permanent
+Sales
+Linda Anderson<br/>
+*********************************<br/>
+Employee details:5432107867
+hemanth
+m<br/>
+*********************************<br/>
+Employee details:0095
+Jacqueline
+White
+Support Specialist (Deleted)
+Full-Time Contract
+Technical Support
+Dominic Chase<br/>
+*********************************<br/>
+Employee details:0243
+Jadine
+Jackie
+HR Associate (Deleted)
+Full-Time Probation
+Human Resources
+Seema Collings<br/>
+*********************************<br/>
+Employee details:0062
+Jasmine
+Morgan
+Financial Analyst (Deleted)
+Full-Time Probation
+Finance
+Kevin Mathews<br/>
+*********************************<br/>
+Employee details:0083
+Joe
+Root
+Content Specialist (Deleted)
+Full-Time Probation
+Marketing
+Melan Peiris<br/>
+*********************************<br/>
+Employee details:0011
+John
+Smith
+Chief Executive Officer (Deleted)
+Full-Time Permanent
+Administration<br/>
+*********************************<br/>
+Employee details:0054
+Jordan
+Mathews
+Database Administrator (Deleted)
+Full-Time Contract
+TechOps
+Cassidy Hope<br/>
+*********************************<br/>
+Employee details:0058
+Kevin
+Mathews
+Finance Manager (Deleted)
+Full-Time Permanent
+Finance
+Peter Anderson<br/>
+*********************************<br/>
+Employee details:0239
+Kiyara
+Hu
+HR Associate (Deleted)
+Full-Time Permanent
+Human Resources
+Seema Collings<br/>
+*********************************<br/>
+Employee details:0016
+Linda Jane
+Anderson
+VP - Sales & Marketing (Deleted)
+Full-Time Permanent
+Administration
+John Smith<br/>
+*********************************<br/>
+Employee details:0208
+Lisa
+Andrews
+Software Engineer (Deleted)
+Full-Time Probation
+Development
+Fiona Grace<br/>
+*********************************<br/>
+Employee details:0091
+Luke
+Wright
+Head of Support (Deleted)
+Full-Time Permanent
+Technical Support
+Dominic Chase<br/>
+*********************************<br/>
+Employee details:512675426
+madhu sudhan rao
+m<br/>
+*********************************<br/>
+Employee details:0050
+Maggie
+Manning
+Network Administrator (Deleted)
+Full-Time Probation
+TechOps
+Cassidy Hope<br/>
+*********************************<br/>
+Employee details:0275
+mahesh
+m<br/>
+*********************************<br/>
+Employee details:Mahesh
+V
+QA Lead (Deleted)<br/>
+*********************************<br/>
+Employee details:0278
+mahesh
+m<br/>
+*********************************<br/>
+Employee details:0282
+mahesh@123
+m<br/>
+*********************************<br/>
+Employee details:0276
+mahesh@123
+m<br/>
+*********************************<br/>
+Employee details:0273
+mahesh@123
+m<br/>
+*********************************<br/>
+Employee details:0283
+mahesh@123
+m<br/>
+*********************************<br/>
+Employee details:0280
+mahesh@123
+m<br/>
+*********************************<br/>
+Employee details:0277
+mahesh@123
+m<br/>
+*********************************<br/>
+Employee details:0078
+Melan
+Peiris
+Social Media Marketer (Deleted)
+Full-Time Permanent
+Marketing
+Linda Anderson<br/>
+*********************************<br/>
+Employee details:7357364
+Michael
+Porter<br/>
+*********************************<br/>
+Employee details:0231
+Nathan
+Elliot
+Sales Representative (Deleted)
+Full-Time Probation
+Sales
+Linda Anderson<br/>
+*********************************<br/>
+Employee details:0271
+ncncnc mcmcmc
+mcmcmcmmc<br/>
+*********************************<br/>
+Employee details:0074
+Nina
+Patel
+Pre-Sales Coordinator (Deleted)
+Full-Time Contract
+Sales
+Anthony Nolan<br/>
+*********************************<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.orangehrm.testcases.ViewAndEditEmployeeDetails@3e14c16d</td></tr>
+<tr>
+<td title='com.orangehrm.testcases.ViewAndEditEmployeeDetails.logoutApplication()'><b>logoutApplication</b><br>Test class: com.orangehrm.testcases.ViewAndEditEmployeeDetails<br/>
+<a href="#Output-832322085" onClick='toggleBox("Output-832322085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-832322085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-832322085">
+Profile drop down link clicked<br/>
+Logout link clicked<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.orangehrm.testcases.ViewAndEditEmployeeDetails@3e14c16d</td></tr>
+</table><p>
+</body>
+</html>

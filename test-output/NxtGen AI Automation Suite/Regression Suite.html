@@ -1,0 +1,445 @@
+<html>
+<head>
+<title>TestNG:  Regression Suite</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Suite</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 19 10:41:11 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47060 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingMultipleWindowsNavigation()'><b>validatingMultipleWindowsNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-465869765" onClick='toggleBox("Output-465869765", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-465869765" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-465869765">
+Page Navigated to Multiple Windows Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingHomePageNavigation()'><b>validatingHomePageNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-1153511683" onClick='toggleBox("Output-1153511683", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1153511683" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1153511683">
+Page Navigated to Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMultipleWindows.handlingMultipleBrowsers()'><b>handlingMultipleBrowsers</b><br>Test class: com.nxtgenai.testcases.HandlingMultipleWindows<br/>
+<a href="#Output-2034610694" onClick='toggleBox("Output-2034610694", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2034610694" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2034610694">
+New Browser Window Button is clicked<br/>
+Browser is Maximized<br/>
+Page Navigated to Python For Automation Successfully<br/>
+Browser is Closed<br/>
+Page Navigated to Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.HandlingMultipleWindows@641856</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingWebTableNavigation()'><b>validatingWebTableNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-1407986024" onClick='toggleBox("Output-1407986024", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1407986024" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1407986024">
+Page Navigated to Web Table Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingPopUp.validateAlertPopUp()'><b>validateAlertPopUp</b><br>Test class: com.nxtgenai.testcases.HandlingPopUp<br/>
+<a href="#Output-1096742104" onClick='toggleBox("Output-1096742104", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1096742104" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1096742104">
+Alert Button is clicked<br/>
+<br/>
+Captured Alert Message is I am an alert box!<br/>
+Ok Button is clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingPopUp@63f34b70</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMultipleWindows.handlingMultipleMessageWindow()'><b>handlingMultipleMessageWindow</b><br>Test class: com.nxtgenai.testcases.HandlingMultipleWindows<br/>
+<a href="#Output-1689309690" onClick='toggleBox("Output-1689309690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1689309690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1689309690">
+Page Navigated to Multiple Windows Successfully<br/>
+New Message Window Button is clicked<br/>
+Browser is Closed<br/>
+Page Navigated to Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nxtgenai.testcases.HandlingMultipleWindows@641856</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMouseEvent.validateDoubleClickMe()'><b>validateDoubleClickMe</b><br>Test class: com.nxtgenai.testcases.HandlingMouseEvent<br/>
+<a href="#Output-1726092648" onClick='toggleBox("Output-1726092648", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1726092648" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1726092648">
+Double click action is performed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingMouseEvent@1b58ff9e</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingAlertPopUpNavigation()'><b>validatingAlertPopUpNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-170778406" onClick='toggleBox("Output-170778406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-170778406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-170778406">
+Page Navigated to Alert and PopUp Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingPopUp.validateConfirmAlertPopUp()'><b>validateConfirmAlertPopUp</b><br>Test class: com.nxtgenai.testcases.HandlingPopUp<br/>
+<a href="#Output-1898629094" onClick='toggleBox("Output-1898629094", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1898629094" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1898629094">
+Confirm Alert Button is clicked<br/>
+Captured Alert Message is Confirm pop up with OK and Cancel button<br/>
+Ok Button is clicked<br/>
+Confirm Alert Button is clicked<br/>
+Cancel Button is clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingPopUp@63f34b70</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingProgressBarNavigation()'><b>validatingProgressBarNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-65894433" onClick='toggleBox("Output-65894433", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-65894433" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-65894433">
+Page Navigated to Progress Bar Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingTestimonialsNavigation()'><b>validatingTestimonialsNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-999427036" onClick='toggleBox("Output-999427036", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-999427036" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-999427036">
+Page Navigated to Testimonials Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingMouseEventNavigation()'><b>validatingMouseEventNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-2070438137" onClick='toggleBox("Output-2070438137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2070438137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2070438137">
+Page Navigated to Mouse Event Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMouseEvent.validateRegistrationFormOption()'><b>validateRegistrationFormOption</b><br>Test class: com.nxtgenai.testcases.HandlingMouseEvent<br/>
+<a href="#Output-1202178366" onClick='toggleBox("Output-1202178366", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202178366" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202178366">
+Registration Form Option is selected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingMouseEvent@1b58ff9e</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingPopUp.validatePromptAlertPopUp()'><b>validatePromptAlertPopUp</b><br>Test class: com.nxtgenai.testcases.HandlingPopUp<br/>
+<a href="#Output-326692514" onClick='toggleBox("Output-326692514", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-326692514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-326692514">
+Prompt Alert Button is clicked<br/>
+Captured Alert Message is Do you like Automation ?<br/>
+Alert Message entered is Yes<br/>
+Ok Button is clicked<br/>
+Prompt Alert Button is clicked<br/>
+Alert Message entered is No<br/>
+Ok Button is clicked<br/>
+Prompt Alert Button is clicked<br/>
+Cancel Button is clicked<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingPopUp@63f34b70</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingTechTalkNavigation()'><b>validatingTechTalkNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-1396801698" onClick='toggleBox("Output-1396801698", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1396801698" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1396801698">
+Page Navigated to Tech Talk Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMouseEvent.validateAlertPopUpOption()'><b>validateAlertPopUpOption</b><br>Test class: com.nxtgenai.testcases.HandlingMouseEvent<br/>
+<a href="#Output-1218169085" onClick='toggleBox("Output-1218169085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1218169085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1218169085">
+Alert PopUp Option is selected<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nxtgenai.testcases.HandlingMouseEvent@1b58ff9e</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.RegisterDemo.registerUser()'><b>registerUser</b><br>Test class: com.nxtgenai.testcases.RegisterDemo<br>Parameters: {EmailID=vinothrwins@gmail.com, Gender=Male, StreetAddress=XYZ Street, UFT=ON, ApartmentNumber=S1, SeleniumWebDriver=ON, Country=India, Expected Successful Message=Registration Form is Successfully Submitted, PinCode=600100, State=Tamil Nadu, Query=What is the Roadmap for Selenium Automation?, TitleValidation=Register For Demo, MM=00, LastName=Rathinam, FirstName=Vinoth, MobileNumber=638354489, FunctionalTesting=OFF, Others=OFF, TestNG=ON, CoreJava=OFF, DemoDate=12/19/2024, HH=09, City=Chennai}<br/>
+<a href="#Output-1060563153" onClick='toggleBox("Output-1060563153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1060563153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1060563153">
+Page Navigated to Registration Form Successfully<br/>
+Both the actual and expected form titles are same<br/>
+The Form Title is Register For Demo<br/>
+First Name is Vinoth<br/>
+Last Name is Rathinam<br/>
+Male Radio Button is Selected<br/>
+Street Address is XYZ Street<br/>
+Apartment Number is S1<br/>
+City is Chennai<br/>
+State is Tamil Nadu<br/>
+Postal Code is 600100<br/>
+India is selected from Country drop down<br/>
+Email is vinothrwins@gmail.com<br/>
+Date of Demo is 12/19/2024<br/>
+09 is selected in HH Dropdown<br/>
+00 is selected in MM Dropdown<br/>
+Mobile Number is 638354489<br/>
+Selenium WebDriver Check Box is checked<br/>
+UFT Check Box is checked<br/>
+TestNG Check Box is checked<br/>
+The Query Enter is What is the Roadmap for Selenium Automation?<br/>
+Enter Any Two Digits is: 99<br/>
+Submit Button is Clicked<br/>
+Actual and Expected Successful Message Text are not same<br/>
+Actual Successful Message Text is <br/>
+Expected Successful Message Text is Registration Form is Successfully Submitted<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.nxtgenai.testcases.RegisterDemo@5ebd56e9</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.HandlingMultipleWindows.handlingMultipleTabs()'><b>handlingMultipleTabs</b><br>Test class: com.nxtgenai.testcases.HandlingMultipleWindows<br/>
+<a href="#Output-190605872" onClick='toggleBox("Output-190605872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-190605872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-190605872">
+Page Navigated to Multiple Windows Successfully<br/>
+New Browser Tab Button is clicked<br/>
+Browser is Maximized<br/>
+Page Navigated to Python For Automation Successfully<br/>
+Browser is Closed<br/>
+Page Navigated to Home Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.nxtgenai.testcases.HandlingMultipleWindows@641856</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingPythonForAutomationNavigation()'><b>validatingPythonForAutomationNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-1961232715" onClick='toggleBox("Output-1961232715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1961232715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1961232715">
+Page Navigated to Python For Automation Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingRegistrationFormNavigation()'><b>validatingRegistrationFormNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-412375354" onClick='toggleBox("Output-412375354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-412375354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-412375354">
+Page Navigated to Registration Form Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingDynamicTransactionNavigation()'><b>validatingDynamicTransactionNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-294649085" onClick='toggleBox("Output-294649085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-294649085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294649085">
+Page Navigated to Dynamic Transaction Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingFramesNavigation()'><b>validatingFramesNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-46852536" onClick='toggleBox("Output-46852536", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-46852536" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-46852536">
+Page Navigated to Frame Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.RegisterDemo.registerUser()'><b>registerUser</b><br>Test class: com.nxtgenai.testcases.RegisterDemo<br>Parameters: {EmailID=pranav@gmail.com, Gender=Male, StreetAddress=ABC Street, UFT=OFF, ApartmentNumber=C1, SeleniumWebDriver=OFF, Country=India, Expected Successful Message=Registration Form is Successfully Submitted, PinCode=500001, State=Telangana, Query=What is the Roadmap for Web Service API Automation?, TitleValidation=Register For Demo, MM=35, LastName=Vinoth, FirstName=Pranav, MobileNumber=638354489, FunctionalTesting=ON, Others=ON, TestNG=OFF, CoreJava=ON, DemoDate=06/11/2024, HH=20, City=Hyderabad}<br/>
+<a href="#Output-379776337" onClick='toggleBox("Output-379776337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-379776337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-379776337">
+Page Navigated to Registration Form Successfully<br/>
+Both the actual and expected form titles are same<br/>
+The Form Title is Register For Demo<br/>
+First Name is Pranav<br/>
+Last Name is Vinoth<br/>
+Male Radio Button is Selected<br/>
+Street Address is ABC Street<br/>
+Apartment Number is C1<br/>
+City is Hyderabad<br/>
+State is Telangana<br/>
+Postal Code is 500001<br/>
+India is selected from Country drop down<br/>
+Email is pranav@gmail.com<br/>
+Date of Demo is 06/11/2024<br/>
+20 is selected in HH Dropdown<br/>
+35 is selected in MM Dropdown<br/>
+Mobile Number is 638354489<br/>
+Core Java Check Box is checked<br/>
+Functional Testing Check Box is checked<br/>
+Others Check Box is checked<br/>
+The Query Enter is What is the Roadmap for Web Service API Automation?<br/>
+Enter Any Two Digits is: 99<br/>
+Submit Button is Clicked<br/>
+Actual and Expected Successful Message Text are not same<br/>
+Actual Successful Message Text is <br/>
+Expected Successful Message Text is Registration Form is Successfully Submitted<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.nxtgenai.testcases.RegisterDemo@5ebd56e9</td></tr>
+<tr>
+<td title='com.nxtgenai.testcases.ScreenNavigation.validatingSeleniumAutomationCurriculumNavigation()'><b>validatingSeleniumAutomationCurriculumNavigation</b><br>Test class: com.nxtgenai.testcases.ScreenNavigation<br/>
+<a href="#Output-551421413" onClick='toggleBox("Output-551421413", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-551421413" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-551421413">
+Page Navigated to A to Z Selenium Automation Curriculum Successfully<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nxtgenai.testcases.ScreenNavigation@21ca139c</td></tr>
+</table><p>
+</body>
+</html>
