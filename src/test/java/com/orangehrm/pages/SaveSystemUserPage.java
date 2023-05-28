@@ -84,10 +84,11 @@ public class SaveSystemUserPage {
 	}
 
 	public void enterEmployeeName(String empName) {
-		employeeNameTextBox.sendKeys(empName);
+		String empFirstName[]=empName.split(" ");
+		employeeNameTextBox.sendKeys(empFirstName[0]);
 		//Creating dynamic xpath
-		String employeeNameXpath=ObjectRepository.employeeNameFromListXpath.replace("EmpName", "Dominic  Chase");
-		WebElement employeeNameOption=driver.findElement(By.xpath(employeeNameXpath));		
+		String employeeNameXpath=ObjectRepository.employeeNameFromListXpath.replace("EmpName", empName);
+		WebElement employeeNameOption=driver.findElement(By.xpath(employeeNameXpath));
 		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.visibilityOf(employeeNameOption));
 		employeeNameOption.click();

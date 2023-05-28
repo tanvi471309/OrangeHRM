@@ -100,9 +100,10 @@ public class UserManagementPage {
 	}
 
 	public void enterEmployeeName(String empName) {
-		searchEmployeeNameTextBox.sendKeys(empName);
+		String empFirstName[]=empName.split(" ");
+		searchEmployeeNameTextBox.sendKeys(empFirstName[0]);
 		//Creating dynamic xpath
-		String employeeNameXpath=ObjectRepository.searchEmployeeNameFromListXpath.replace("EmpName", "Dominic  Chase");
+		String employeeNameXpath=ObjectRepository.searchEmployeeNameFromListXpath.replace("EmpName", empName);
 		WebElement searchEmployeeNameOption=driver.findElement(By.xpath(employeeNameXpath));
 		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.visibilityOf(searchEmployeeNameOption));

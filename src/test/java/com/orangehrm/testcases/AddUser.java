@@ -66,7 +66,7 @@ public class AddUser extends TestBase{
 	public void searchEmployee() throws InterruptedException {
 
 		userManagementObj=PageFactory.initElements(driver, UserManagementPage.class);
-		userManagementObj.validateHeadingSystemUsers(config.getProperty("expectedSystemUsersPageheading"));
+		userManagementObj.validateHeadingSystemUsers(config.getProperty("expectedSystemUsersPageHeading"));
 		userManagementObj.enterUsername(config.getProperty("newUserUsername"));
 		userManagementObj.selectUserRole(config.getProperty("userRole"));
 		userManagementObj.enterEmployeeName(config.getProperty("employeeName"));

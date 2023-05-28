@@ -82,12 +82,12 @@ public class TimePage {
 		Reporter.log("Edit button clicked");
 	}
 
-	public void clickProjectTextBox(String projectname){		
+	public void clickProjectTextBox(String projectName){
 		WebDriverWait wait = new WebDriverWait(driver,10);
 		wait.until(ExpectedConditions.visibilityOf(projectTextBox));
 		projectTextBox.sendKeys(Keys.chord(Keys.CONTROL, "a"), Keys.BACK_SPACE);		
-		projectTextBox.sendKeys(projectname);
-		Reporter.log("Entered project name: "+projectname);
+		projectTextBox.sendKeys(projectName);
+		Reporter.log("Entered project name: "+projectName);
 	}
 	public void selectProjectName() {	
 		WebDriverWait wait = new WebDriverWait(driver,150);
